@@ -2,10 +2,10 @@ function Footer(){
 
     return(
         <footer id="footer">
-        <div class="container">
+        <div className="container">
             
-          <div class="copyright">
-            &copy; Copyright <strong><span>Dev-10</span></strong>
+          <div className="copyright">
+            &copy; Copyright <strong><span>Genesis10</span></strong>
           </div>
         </div>
       </footer>

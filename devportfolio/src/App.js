@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Main from "./Components/Main";
 import Navbar from "./Components/Misc/NavBar";
+import DoGooderersOriginal from "./Components/Projects/DogooderersOriginal";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Main />} />
+          <Route path='/dogooderersOriginal' element={<DoGooderersOriginal />} />
+
         </Routes>
         </div>
       </Router>

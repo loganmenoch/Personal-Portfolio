@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Portfolio(){
 
     return(
@@ -16,7 +17,7 @@ function Portfolio(){
               <div className="portfolio-wrap">
                 <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus"></i></a>
+                <Link to="/doGooderersOriginal">Dev 10 Final Capstone</Link>
                   <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
