@@ -21,8 +21,8 @@ function Hero() {
         }, []);
 
     return (
-        <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
-            <div className="hero-container" data-aos="fade-in">
+        <section id="home" className="d-flex flex-column justify-content-center align-items-center">
+            <div className="home-container" data-aos="fade-in">
                 <h1>Logan Enoch</h1>
                 <p>I'm A <span ref={el}></span></p>
             </div>

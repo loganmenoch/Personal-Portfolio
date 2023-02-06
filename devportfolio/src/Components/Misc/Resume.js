@@ -12,27 +12,28 @@ function Resume(){
             <div className="col-lg-6" data-aos="fade-up">
                 <h3 className="resume-title">Sumary</h3>
                 <div className="resume-item pb-0">
-                <h4>Alex Smith</h4>
+                <h4>Logan Enoch</h4>
                 <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
                 <ul>
-                    <li>Portland par 127,Orlando, FL</li>
-                    <li>(123) 456-7891</li>
-                    <li>alice.barkley@example.com</li>
+                    <li>2838 Fremont Ave S, Minneapolis, MN</li>
+                    <li>(804) 651-8350</li>
+                    <li>enochloganm@gmail.com</li>
                 </ul>
                 </div>
 
                 <h3 className="resume-title">Education</h3>
                 <div className="resume-item">
-                <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                <h5>2015 - 2016</h5>
-                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                    <h4>Java Full Stack Developer Certification</h4>
+                    <h5>Nov 2022</h5>
+                    <p><em>Dev10 Associate Program</em></p>
+                    <p>Chosen for highly selective, paid Dev10 training program - less than 5% of applicants are hired<br/>
+                    - Training in Java Cloud</p>
                 </div>
                 <div className="resume-item">
-                <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                <h5>2010 - 2014</h5>
-                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+                    <h4>Bachelors of Science: <i>Criminal Justice</i></h4>
+                    <h5>2019 - 2022</h5>
+                    <p><em>Virginia Commonwealth University, Richmond, VA</em></p>
+                    <p>Transferred from Brightpoint Community College <br/>Law Minor<br/>3.9 GPA</p>
                 </div>
             </div>
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
