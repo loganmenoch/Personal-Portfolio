@@ -4,6 +4,7 @@ import Main from "./Components/Main";
 import Navbar from "./Components/Misc/NavBar";
 import DoGooderersOriginal from "./Components/Projects/DogooderersOriginal";
 import DoGooderersUpdated from "./Components/Projects/DoGooderersUpdated";
+import PortfolioProject from "./Components/Projects/PortfolioProject";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Main />} />
           <Route path='/dogooderersOriginal' element={<DoGooderersOriginal />} />
           <Route path='/dogooderersUpdated' element={<DoGooderersUpdated />} />
+          <Route path='/portfolioProject' element={<PortfolioProject />} />
 
 
         </Routes>
