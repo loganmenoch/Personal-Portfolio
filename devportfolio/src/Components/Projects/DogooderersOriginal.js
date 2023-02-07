@@ -63,7 +63,11 @@ function DoGooderersOriginal(){
                         </button>
                     </div>
                     <p style={{marginTop:"1em"}}>
-                        Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                        This was a group project that involved using all the knowledge our Dev-10 Cohort had accumulated over the 12 week Java training program.
+                        <p><strong>Technologes:</strong></p>
+                        <p style={{marginLeft:"1em"}}>BootStrap, MySQL, Java, Spring, React, JS, Google Maps API, JPA</p>
+                        <p><strong>Development Tools:</strong></p>
+                        <p style={{marginLeft:"1em"}}>Docker, IntelliJ, Maven, VS Code</p>
                     </p>
                     </div>
                 </div>

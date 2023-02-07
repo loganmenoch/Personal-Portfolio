@@ -13,7 +13,7 @@ function Portfolio(){
   
           <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
   
-            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div className="col-lg-4 col-md-6 portfolio-item">
               <div className="portfolio-wrap">
                 <img src="assets/img/DOproject/logo.png" className="img-fluid" style={{height:"19.5em", paddingLeft:"3em"}} alt=""/>
                 <div className="portfolio-links">
@@ -23,9 +23,9 @@ function Portfolio(){
               </div>
             </div>
   
-            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div className="col-lg-4 col-md-6 portfolio-item ">
               <div className="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt=""/>
+                <img src="assets/img/DUproject/home.png" className="img-fluid" style={{height:"15em" }} alt=""/>
                 <div className="portfolio-links">
                   <Link to="/dogooderersUpdated" title="More Details">DoGooderers Updated</Link>
                   <a href="/dogooderersUpdated" title="More Details"><i className="bx bx-link"></i></a>
@@ -33,7 +33,7 @@ function Portfolio(){
               </div>
             </div>
   
-            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+             <div className="col-lg-4 col-md-6 portfolio-item ">
               <div className="portfolio-wrap">
                 <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-links">
@@ -43,18 +43,16 @@ function Portfolio(){
               </div>
             </div>
   
-            <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div className="col-lg-4 col-md-6 portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt=""/>
+                <img src="assets/img/websitebackground.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-links">
                   <Link to="/doGooderersOriginal" title="More Details">Development Portfolio</Link>
                   <a href="/doGooderersOriginal" title="More Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
-  
           </div>
-  
         </div>
       </section>
     );

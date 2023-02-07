@@ -35,7 +35,7 @@ function DoGooderersUpdated(){
                     <div className="portfolio-details-slider swiper">
                     <div className="swiper-wrapper align-items-center">
                         <div className="swiper-slide">
-                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/71Fe7tPZ7vo" allowFullScreen height="550px" width="850px"></iframe>
+                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/soJk1i65vY4" allowFullScreen height="550px" width="850px"></iframe>
                         </div>
                     </div>
                         <div className="swiper-pagination"></div>
@@ -49,9 +49,11 @@ function DoGooderersUpdated(){
                         Project Details
                     </h3>
                     <ul>
-                        <li><strong>Category</strong>: Independent Project Expansion</li>
+                        <li><strong>Category</strong>: Independent Updates to Existing</li>
                         <li><strong>Time Span</strong>: 1 Week</li>
                         <li><strong>Project date</strong>: 05 December 2022</li>
+                        <li><strong>Group Members (original) :</strong> <Link to='https://www.linkedin.com/in/anthony-flowers-978a6b105/'>Anthony Flowers</Link><br/>
+                                                            <Link to='https://www.linkedin.com/in/matthew-maurice-8b7b54242/' style={{marginLeft:"36%"}}>Matthew Maurice</Link></li>
                     </ul>
                     </div>
                     <div className="portfolio-description">
@@ -61,7 +63,11 @@ function DoGooderersUpdated(){
                         </button>
                     </div>
                     <p style={{marginTop:"1em"}}>
-                        Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                        I updated the CSS and functionality of the original DoGooderers Group project as a way to explore various aspects of front end development. 
+                        <p><strong>Technologes:</strong></p>
+                        <p style={{marginLeft:"1em"}}>BootStrap, MySQL, Java, Spring, React, JS, Google Maps API, JPA</p>
+                        <p><strong>Development Tools:</strong></p>
+                        <p style={{marginLeft:"1em"}}>Docker, IntelliJ, Maven, VS Code</p>
                     </p>
                     </div>
                 </div>
@@ -76,14 +82,20 @@ function DoGooderersUpdated(){
                 open={open}
                 close={() => setOpen(false)}
                 slides={[
-                { src: "assets/img/DOproject/logo.png", title:"DoGooderers Logo" },
-                { src: 'assets/img/DOproject/DOhome.jpg', title:"Home Page", description:"The home page contains links to navigate the website, a sliding photo gallery, and an About Us section that describes the founding of the website and its contributors."  },
-                { src: 'assets/img/DOproject/DOnavbar.jpg', title:"Navigation Bar", description:"The Navigation bar provides easy access to all aspects of the website." },
-                { src: 'assets/img/DOproject/findorganizations.jpg', title:"Find Organizations Page", description:"The organizations pages allows users to find volunteer opportunities in their area based on their geographic location. Users can also explore the various services, that each organization offers. Registeres users can also review their volunteer experiences with each organization. Administrators can edit and delete organizations that contain offensive or inaccurate information. " },
-                { src: 'assets/img/DOproject/Kindnessleague.jpg', title:"Competition Page", description:"Users can participate in compatitions with their friends based on the volunteer hours they have accumulated over a set period of time. These contests aim to encourage friendly comptition and increase community engagement within friend groups. " },
-                { src: 'assets/img/DOproject/Volunteerhome.jpg', title:"Volunteer Page", description:"Registered users can track their volunteer hours and log their experiences. Additionally, users can see competitions in which they are actively participating." },
-                { src: 'assets/img/DOproject/volunteerlogs.jpg', title:"Volunteer Logs", description:"Each Volunteer log includes the organization they volunteered with, if applicable, the start and end times, the and tasks completed while volunteering. Users may also describe what they liked and disliked about the experience in the 'Task' section." },
-                { src: 'assets/img/DOproject/contactpage.jpg', title:"Contact Form", description:"Users may contact the DoGooderers team with any concerns about the website." },
+                { src: "assets/img/DUproject/home.png", title:"Home" },
+                { src: 'assets/img/DUproject/heroes.png', title:"Navigation"  },
+                { src: 'assets/img/DUproject/about.jpg', title:"About Us" },
+                { src: 'assets/img/DUproject/counter.jpg', title:"Embeded video and counter"},
+                { src: 'assets/img/DUproject/services.jpg', title:"Services"},
+                { src: 'assets/img/DUproject/photogallery.jpg', title:"Photo Gallery", description:"Photos can be filtered by the content or volunteer activity." },
+                { src: 'assets/img/DUproject/faq.jpg', title:"Volunteer Logs", description:"Each Volunteer log includes the organization they volunteered with, if applicable, the start and end times, the and tasks completed while volunteering. Users may also describe what they liked and disliked about the experience in the 'Task' section." },
+                { src: 'assets/img/DUproject/contact.jpg', title:"Contact Form", description:"Users may contact the DoGooderers team with any concerns about the website." },
+                { src: 'assets/img/DUproject/login.jpg', title:"Login/ Register" },
+                { src: 'assets/img/DUproject/logs.jpg', title:"Volunteer Logs", description:"Each Volunteer log includes the organization they volunteered with, if applicable, the start and end times, the and tasks completed while volunteering. Users may also describe what they liked and disliked about the experience in the 'Task' section." },
+                { src: 'assets/img/DUproject/map.jpg', title:"Find Organizations", description:"The Google Map loads to the users current location and finds searched organizations within a limited radius." },
+                { src: 'assets/img/DUproject/competitions.jpg', title:"Competitions", description:"Users can learn more about competitions, how to make one, and explore the competions they are currently hosting/ participating in." },
+                { src: 'assets/img/DUproject/kindness.jpg', title:"Competition", description:"Competitions have a leader board that show the competition moderators and all the participant hours that count towards the total. " },
+
                 ]}
                 plugins={[Captions]}
             />
