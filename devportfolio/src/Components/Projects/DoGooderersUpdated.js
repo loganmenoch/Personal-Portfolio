@@ -6,7 +6,7 @@ import "yet-another-react-lightbox/plugins/captions.css";
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 
-function DoGooderersOriginal(){
+function DoGooderersUpdated(){
     const [open, setOpen] = useState(false);
 
     return (
@@ -15,10 +15,10 @@ function DoGooderersOriginal(){
             <div className="container">
 
                 <div className="d-flex justify-content-between align-items-center">
-                <h2>DoGooderers Original</h2>
+                <h2>DoGooderers Updated</h2>
                 <ol>
                     <li><a href="/">Home</a></li>
-                    <li>Dev10 Capstone</li>
+                    <li>DoGooderers Updated</li>
                 </ol>
                 </div>
 
@@ -46,14 +46,12 @@ function DoGooderersOriginal(){
                 <div className="col-lg-4">
                     <div className="portfolio-info">
                     <h3>
-                        Capstone Details
+                        Project Details
                     </h3>
                     <ul>
-                        <li><strong>Category</strong>: Group Project</li>
-                        <li><strong>Time Span</strong>: 2 weeks</li>
-                        <li><strong>Project date</strong>: 05 November 2022</li>
-                        <li><strong>Group Members:</strong> <Link to='https://www.linkedin.com/in/anthony-flowers-978a6b105/'>Anthony Flowers</Link><br/>
-                                                            <Link to='https://www.linkedin.com/in/matthew-maurice-8b7b54242/' style={{marginLeft:"36%"}}>Matthew Maurice</Link></li>
+                        <li><strong>Category</strong>: Independent Project Expansion</li>
+                        <li><strong>Time Span</strong>: 1 Week</li>
+                        <li><strong>Project date</strong>: 05 December 2022</li>
                     </ul>
                     </div>
                     <div className="portfolio-description">
@@ -93,4 +91,4 @@ function DoGooderersOriginal(){
     )
 }
 
-export default DoGooderersOriginal;
+export default DoGooderersUpdated;

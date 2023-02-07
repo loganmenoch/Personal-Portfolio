@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Main from "./Components/Main";
 import Navbar from "./Components/Misc/NavBar";
 import DoGooderersOriginal from "./Components/Projects/DogooderersOriginal";
+import DoGooderersUpdated from "./Components/Projects/DoGooderersUpdated";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/dogooderersOriginal' element={<DoGooderersOriginal />} />
+          <Route path='/dogooderersUpdated' element={<DoGooderersUpdated />} />
+
 
         </Routes>
         </div>

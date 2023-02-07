@@ -15,7 +15,7 @@ function Portfolio(){
   
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt=""/>
+                <img src="assets/img/DOproject/logo.png" className="img-fluid" style={{height:"19.5em", paddingLeft:"3em"}} alt=""/>
                 <div className="portfolio-links">
                   <Link to="/doGooderersOriginal" title="More Details">Dev10 Capstone</Link>
                   <a href="/doGooderersOriginal" title="More Details"><i className="bx bx-link"></i></a>
@@ -27,8 +27,8 @@ function Portfolio(){
               <div className="portfolio-wrap">
                 <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                  <Link to="/dogooderersUpdated" title="More Details">DoGooderers Updated</Link>
+                  <a href="/dogooderersUpdated" title="More Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -37,8 +37,8 @@ function Portfolio(){
               <div className="portfolio-wrap">
                 <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                  <Link to="/doGooderersOriginal" title="More Details">Get Inked</Link>
+                  <a href="/doGooderersOriginal" title="More Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -47,18 +47,8 @@ function Portfolio(){
               <div className="portfolio-wrap">
                 <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-  
-            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div className="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-5.jpg" className="img-fluid" alt=""/>
-                <div className="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2"><i className="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                  <Link to="/doGooderersOriginal" title="More Details">Development Portfolio</Link>
+                  <a href="/doGooderersOriginal" title="More Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
