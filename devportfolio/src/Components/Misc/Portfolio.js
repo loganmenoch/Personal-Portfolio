@@ -17,8 +17,8 @@ function Portfolio(){
               <div className="portfolio-wrap">
                 <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-links">
-                <Link to="/doGooderersOriginal">Dev 10 Final Capstone</Link>
-                  <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                  <Link to="/doGooderersOriginal" title="More Details">Dev10 Capstone</Link>
+                  <a href="/doGooderersOriginal" title="More Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
             </div>

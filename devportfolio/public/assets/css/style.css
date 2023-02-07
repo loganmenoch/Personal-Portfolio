@@ -581,6 +581,7 @@ section {
   bottom: -60px;
   z-index: 3;
   position: absolute;
+  width: 55em;
   transition: all ease-in-out 0.3s;
   display: flex;
   justify-content: center;
@@ -1102,4 +1103,16 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+
+#video {
+  font-size: large;
+  color:#2c682c;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#video:hover{
+  color: #1f341f;
 }

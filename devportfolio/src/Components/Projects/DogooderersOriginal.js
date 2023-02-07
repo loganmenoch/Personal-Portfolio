@@ -1,29 +1,11 @@
-import { Fade } from "react-slideshow-image";
 import 'react-slideshow-image/dist/styles.css'
-import { Link } from "react-router-dom";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import { useState } from "react";
+
 
 function DoGooderersOriginal(){
-      
-      const divStyle = {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundSize: 'contain',
-        backgroundRepeat: 'no-repeat',
-        height: '550px',
-      }
-
-    const slideImages = [
-        {
-          url: 'image.url'        
-        },
-        {
-          url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
-        },
-        {
-          url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
-        },
-      ];
+    const [open, setOpen] = useState(false);
 
     return (
         <div>
@@ -47,16 +29,16 @@ function DoGooderersOriginal(){
                 <div className="row gy-4">
 
                 <div className="col-lg-8">
-                <div className="slide-container" >
-                    <Fade>
-                    {slideImages.map((slideImage, index)=> (
-                        <div key={index}>
-                        <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
-                            <span style={{marginLeft:"30em"}}>{slideImage.caption}</span>
+                <div class="col-lg-12">
+                    <div class="portfolio-details-slider swiper">
+                    <div class="swiper-wrapper align-items-center">
+
+                        <div class="swiper-slide">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QWXCFuMSd50" allowfullscreen height="550px" width="850px"></iframe>
                         </div>
-                        </div>
-                    ))} 
-                    </Fade>
+                    </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
                 
                 </div>
@@ -72,15 +54,13 @@ function DoGooderersOriginal(){
                     </ul>
                     </div>
                     <div className="portfolio-description">
-                    {/* <iframe src="public/assets/Demo/Demo.mp4">Watch Website Demo</iframe> */}
                     <div className="position-relative mt-4">
                         <img src="https://www.pathhelps.org/wp-content/uploads/2017/12/PATH.Icon_.Mission.png" className="img-fluid rounded-4" style={{height:"100px", marginRight:"1em"}} alt=""/>
-                        <a href="https://www.youtube.com/watch?v=pUkfK7nN4PQ">Watch Website Demo</a>
-                        <video width="200px" height="100px" controls="controls">
-                            <source src="Demo.mp4" type="video/mp4"></source>
-                        </video>
+                        <button type="button" onClick={() => setOpen(true)}>
+                            Capstone Images
+                        </button>
                     </div>
-                    <p>
+                    <p style={{marginTop:"1em"}}>
                         Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
                     </p>
                     </div>
@@ -89,7 +69,18 @@ function DoGooderersOriginal(){
                 </div>
 
             </div>
+     
             </section>
+
+            <Lightbox
+                open={open}
+                close={() => setOpen(false)}
+                slides={[
+                { src: "https://www.pathhelps.org/wp-content/uploads/2017/12/PATH.Icon_.Mission.png" },
+                { src: "/image2.jpg" },
+                { src: "/image3.jpg" },
+                ]}
+            />
 
         </div>
     )
