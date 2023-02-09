@@ -53,7 +53,7 @@ function DoGooderersUpdated(){
                         <li><strong>Time Span</strong>: 1 Week</li>
                         <li><strong>Project date</strong>: 05 December 2022</li>
                         <li><strong>Group Members (original) :</strong> <Link to='https://www.linkedin.com/in/anthony-flowers-978a6b105/'>Anthony Flowers</Link><br/>
-                                                            <Link to='https://www.linkedin.com/in/matthew-maurice-8b7b54242/' style={{marginLeft:"36%"}}>Matthew Maurice</Link></li>
+                                                                        <Link to='https://www.linkedin.com/in/matthew-maurice-8b7b54242/' style={{marginLeft:"57%"}}>Matthew Maurice</Link></li>
                     </ul>
                     </div>
                     <div className="portfolio-description">

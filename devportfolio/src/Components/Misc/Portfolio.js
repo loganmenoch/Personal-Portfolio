@@ -1,17 +1,120 @@
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+
 function Portfolio(){
 
+  const portfolio = [
+    {
+      name: "Dev10 Capstone",
+      category: ["all"],
+      src: "assets/img/DOproject/logo.png",
+      link: "/doGooderersOriginal",
+      height: "19.5em",
+      paddingLeft: "3.7em"
+    },
+    {
+      name: "DoGooderers Updated",
+      category: ["all"],
+      src: "assets/img/DUproject/home.png",
+      link: "/doGooderersUpdated",
+      height: "",
+      paddingLeft: ""
+    },
+    {
+      name: "Get Inked",
+      category: ["all", "live"],
+      src: "assets/img/websitebackground.jpg",
+      link: "/doGooderersOriginal",
+      height: "",
+      paddingLeft: ""
+    },
+    {
+      name: "Development Portfolio",
+      category: ["all", "live"],
+      src: "assets/img/websitebackground.jpg",
+      link: "/portfolioProject",
+      height: "",
+      paddingLeft: ""
+    }
+  ];
+
+
+  const [filter, setFilter] = useState("all");
+  const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+      setProjects(portfolio);
+    }, []);
+
+    useEffect(() => {
+      setProjects([]);
+      const filtered = portfolio.map(p => ({ ...p, filtered: p.category.includes(filter) }));
+      setProjects(filtered);
+    }, [filter]);
+
+
     return(
+      <>
+      {/* <section id="portfolio" className="portfolio section-bg">
+      <div className="container" data-aos="fade-up">
+
+        <div className="section-title">
+          <h2>Portfolio</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li >
+                  <a href="/#" active={filter === "all"} onClick={() => setFilter("all")}>
+                    All
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/#"
+                    active={filter === "live"}
+                    onClick={() => setFilter("live")}
+                  >
+                    Live Websites
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div >
+          {projects.map(item => item.filtered === true ? 
+
+              <div key={item.name} className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                <div className="col-lg-4 col-md-4 col-sm-4 col-xs-6 portfolio-item">
+                    <div className="portfolio-wrap">
+                      <img src={item.src} className="img-fluid" alt="" style={{height:[item.height], paddingLeft:[item.paddingLeft]}}/>
+                      <div className="portfolio-links">
+                        <Link to={item.link} title="More Details">{item.name}</Link>
+                        <a href={item.link} title="More Details"><i className="bx bx-link"></i></a>
+                      </div>
+                    </div> 
+                  </div>                 
+              </div>
+              
+              : ""
+          )}
+          </div>
+
+      </div>
+      </section> */}
+    
         <section id="portfolio" className="portfolio section-bg">
-        <div className="container">
+        <div className="container" data-aos="fade-up">
   
           <div className="section-title">
             <h2>Portfolio</h2>
             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
           </div>
-
   
-          <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+          <div className="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="100">
   
             <div className="col-lg-4 col-md-6 portfolio-item">
               <div className="portfolio-wrap">
@@ -35,7 +138,7 @@ function Portfolio(){
   
              <div className="col-lg-4 col-md-6 portfolio-item ">
               <div className="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt=""/>
+                <img src="assets/img/websitebackground.jpg" className="img-fluid" alt=""/>
                 <div className="portfolio-links">
                   <Link to="/doGooderersOriginal" title="More Details">Get Inked</Link>
                   <a href="/doGooderersOriginal" title="More Details"><i className="bx bx-link"></i></a>
@@ -52,9 +155,12 @@ function Portfolio(){
                 </div>
               </div>
             </div>
+
           </div>
-        </div>
-      </section>
+
+         </div>
+         </section>
+         </>
     );
 }
 

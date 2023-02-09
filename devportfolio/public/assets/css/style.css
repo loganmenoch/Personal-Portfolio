@@ -518,6 +518,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -616,6 +617,21 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+}
+
+.portfolio-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.portfolio-item {
+  display: inline-block;
 }
 
 /*--------------------------------------------------------------

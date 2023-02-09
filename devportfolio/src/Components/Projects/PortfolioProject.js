@@ -15,10 +15,10 @@ function PortfolioProject(){
             <div className="container">
 
                 <div className="d-flex justify-content-between align-items-center">
-                <h2>Portfolio Project</h2>
+                <h2>Development Portfolio</h2>
                 <ol>
                     <li><a href="/">Home</a></li>
-                    <li>Portfolio Project</li>
+                    <li>Development Portfolio</li>
                 </ol>
                 </div>
 
@@ -30,46 +30,46 @@ function PortfolioProject(){
 
                 <div className="row gy-4">
 
-                <div className="col-lg-8">
-                <div className="col-lg-12">
-                    <div className="portfolio-details-slider swiper">
-                    <div className="swiper-wrapper align-items-center">
-                        <div className="swiper-slide">
-                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/soJk1i65vY4" allowFullScreen height="550px" width="850px"></iframe>
+                    <div className="col-lg-8">
+                    <div className="col-lg-12">
+                        <div className="portfolio-details-slider swiper">
+                        <div className="swiper-wrapper align-items-center">
+                            <div className="swiper-slide">
+                            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/soJk1i65vY4" allowFullScreen height="550px" width="850px"></iframe>
+                            </div>
+                        </div>
+                            <div className="swiper-pagination"></div>
                         </div>
                     </div>
-                        <div className="swiper-pagination"></div>
                     </div>
-                </div>
-                </div>
 
-                <div className="col-lg-4">
-                    <div className="portfolio-info">
-                    <h3>
-                        Project Details
-                    </h3>
-                    <ul>
-                        <li><strong>Category</strong>: Independent Portfolio Project</li>
-                        <li><strong>Time Span</strong>: 1 Week</li>
-                        <li><strong>Project date</strong>: 01 January 2023</li>
-                        <li><strong>GitHub Repository</strong>: </li>
-                    </ul>
+                    <div className="col-lg-4">
+                        <div className="portfolio-info">
+                        <h3>
+                            Project Details
+                        </h3>
+                        <ul>
+                            <li><strong>Category</strong>: Independent Project</li>
+                            <li><strong>Time Span</strong>: 1 Week</li>
+                            <li><strong>Project date</strong>: 01 January 2023</li>
+                            <li><strong>GitHub Repository</strong>: </li>
+                        </ul>
+                        </div>
+                        <div className="portfolio-description">
+                        <div className="position-relative mt-4">
+                            <button type="button" className="button-52" onClick={() => setOpen(true)}>
+                                Project Images
+                            </button>
+                        </div>
+                        <p style={{marginTop:"1em"}}>
+                            This portfolio is a culmination of my completed development projects thus far.
+                            <p><strong>Technologes:</strong></p>
+                            <p style={{marginLeft:"1em"}}>BootStrap, JS, React, Google Maps API, Lightbox, SlideShow, YouTube</p>
+                            <p><strong>Development Tools:</strong></p>
+                            <p style={{marginLeft:"1em"}}>VS Code, Node</p>
+                        </p>
+                        </div>
                     </div>
-                    <div className="portfolio-description">
-                    <div className="position-relative mt-4">
-                        <button type="button" className="button-52" onClick={() => setOpen(true)}>
-                            Project Images
-                        </button>
-                    </div>
-                    <p style={{marginTop:"1em"}}>
-                        This portfolio is a culmination of my completed development projects thus far.
-                        <p><strong>Technologes:</strong></p>
-                        <p style={{marginLeft:"1em"}}>BootStrap, JS, React, Google Maps API, Lightbox, SlideShow, YouTube</p>
-                        <p><strong>Development Tools:</strong></p>
-                        <p style={{marginLeft:"1em"}}>VS Code, Node</p>
-                    </p>
-                    </div>
-                </div>
 
                 </div>
 
