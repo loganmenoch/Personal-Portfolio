@@ -35,7 +35,7 @@ function PortfolioProject(){
                         <div className="portfolio-details-slider swiper">
                         <div className="swiper-wrapper align-items-center">
                             <div className="swiper-slide">
-                            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/soJk1i65vY4" allowFullScreen height="550px" width="850px"></iframe>
+                                <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/Vqbz4201onQ" allowFullScreen height="550px" width="850px"></iframe>
                             </div>
                         </div>
                             <div className="swiper-pagination"></div>
