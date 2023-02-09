@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { Grid, GridItem, SimpleGrid, Box } from "@chakra-ui/react";
 
 function Portfolio(){
 
@@ -38,7 +39,6 @@ function Portfolio(){
     }
   ];
 
-
   const [filter, setFilter] = useState("all");
   const [projects, setProjects] = useState([]);
 
@@ -60,7 +60,7 @@ function Portfolio(){
 
         <div className="section-title">
           <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Below is a collection of projects I have worked on, both individially and within groups, while working for Dev10. Each project has an attached video demo and photo gallery to explore various aspects of the program and the websites code. </p>
         </div>
 
           <div class="row" data-aos="fade-up">
@@ -84,11 +84,12 @@ function Portfolio(){
             </div>
           </div>
 
-          <div >
+          <div>
+      
           {projects.map(item => item.filtered === true ? 
 
-              <div key={item.name} className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-                <div className="col-lg-4 col-md-4 col-sm-4 col-xs-6 portfolio-item">
+              <div key={item.name} className=" portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                <div className="col-lg-4 portfolio-item">
                     <div className="portfolio-wrap">
                       <img src={item.src} className="img-fluid" alt="" style={{height:[item.height], paddingLeft:[item.paddingLeft]}}/>
                       <div className="portfolio-links">
@@ -111,14 +112,14 @@ function Portfolio(){
   
           <div className="section-title">
             <h2>Portfolio</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p>Below is a collection of projects I have worked on, both individially and within groups, while working for Dev10. Each project has an attached video demo and photo gallery to explore various aspects of the program and the websites code. </p>
           </div>
   
           <div className="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="100">
   
             <div className="col-lg-4 col-md-6 portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/img/DOproject/logo.png" className="img-fluid" style={{height:"19.5em", paddingLeft:"3em"}} alt=""/>
+                <img src="assets/img/DOproject/logo.png" className="img-fluid" style={{height:"17em", paddingLeft:"4.5em"}} alt=""/>
                 <div className="portfolio-links">
                   <Link to="/doGooderersOriginal" title="More Details">Dev10 Capstone</Link>
                   <a href="/doGooderersOriginal" title="More Details"><i className="bx bx-link"></i></a>
@@ -137,11 +138,11 @@ function Portfolio(){
             </div>
   
              <div className="col-lg-4 col-md-6 portfolio-item ">
-              <div className="portfolio-wrap">
-                <img src="assets/img/websitebackground.jpg" className="img-fluid" alt=""/>
+              <div className="portfolio-wrap" style={{backgroundColor:"#281b47"}}>
+                <img src="assets/img/GetInked/getInkedlogo.png" className="img-fluid" alt="" style={{height:"17em", paddingLeft:"4.5em"}}/>
                 <div className="portfolio-links">
-                  <Link to="/doGooderersOriginal" title="More Details">Get Inked</Link>
-                  <a href="/doGooderersOriginal" title="More Details"><i className="bx bx-link"></i></a>
+                  <Link to="/getInked" title="More Details">Get Inked</Link>
+                  <a href="/getInked" title="More Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -160,6 +161,7 @@ function Portfolio(){
 
          </div>
          </section>
+
          </>
     );
 }

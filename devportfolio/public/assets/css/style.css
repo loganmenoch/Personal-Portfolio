@@ -625,13 +625,8 @@ section {
   justify-content: space-between;
 }
 
-.portfolio-grid {
-  display: grid;
-  grid-gap: 10px;
-}
-
-.portfolio-item {
-  display: inline-block;
+.grid-container {
+  display: inline-grid;
 }
 
 /*--------------------------------------------------------------

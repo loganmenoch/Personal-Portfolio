@@ -4,8 +4,7 @@ function Resume(){
         <div className="container">
 
             <div className="section-title">
-            <h2>Resume</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <h2>Resume</h2>
             </div>
 
             <div className="row">
@@ -13,11 +12,11 @@ function Resume(){
                 <h3 className="resume-title">Sumary</h3>
                 <div className="resume-item pb-0">
                 <h4>Logan Enoch</h4>
-                <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                <p><em>Innovative and deadline-driven Software Developer with experience in Full Stack Development and Object Oriented Programming; Passionate about the development process, from initial concept to final, polished deliverable.</em></p>
                 <ul>
-                    <li>2838 Fremont Ave S, Minneapolis, MN</li>
+                    <li>Minneapolis, MN</li>
                     <li>(804) 651-8350</li>
-                    <li>enochloganm@gmail.com</li>
+                    <li>lenoch@dev-10.com</li>
                 </ul>
                 </div>
 
@@ -39,25 +38,25 @@ function Resume(){
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <h3 className="resume-title">Professional Experience</h3>
                 <div className="resume-item">
-                <h4>Senior graphic design specialist</h4>
-                <h5>2019 - Present</h5>
-                <p><em>Experion, New York, NY </em></p>
+                <h4>Dev10 Associate : Genesis10</h4>
+                <h5>July 2022 - Present</h5>
+                <p><em>Minneapolis, MN </em></p>
                 <ul>
-                    <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                    <li>Immersive Training program with an emphasis on Full Stack Web Development.</li>
+                    <li>Java Cloud, JavaScript, React, etc.</li>
+                    <li>Granted Full Stack Certification after completion of 12 week program.</li>
+                    <li>Continued Learning and pursuing various certifications including AWS, UI/UX Design, etc.</li>
                 </ul>
                 </div>
                 <div className="resume-item">
-                <h4>Graphic design specialist</h4>
-                <h5>2017 - 2018</h5>
-                <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                <h4>Court Watch Director : BLM RVA</h4>
+                <h5>2021 - 2022</h5>
+                <p><em>Richmond, VA</em></p>
                 <ul>
-                    <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                    <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                    <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                    <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                    <li>Attended Criminal Court proceedings to observe and document potential discrepencies in the treatment or sentencing of defendants. </li>
+                    <li>Created training materials to be presented to all other participants and interns; Trained all participants in both group and individual capacities. </li>
+                    <li>Developed an expansive internship opportunity for VCU students while simultaneously creating connections between BLM RVA and major academic institutions within the Greater Richmond Area.</li>
+                    <li>Assisted in data entry coordination and the organization of all research gathered by Court Watch participants. </li>
                 </ul>
                 </div>
             </div>
