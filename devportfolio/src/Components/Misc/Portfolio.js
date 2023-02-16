@@ -137,7 +137,7 @@ function Portfolio(){
               </div>
             </div>
   
-             {/* <div className="col-lg-4 col-md-6 portfolio-item ">
+             <div className="col-lg-4 col-md-6 portfolio-item ">
               <div className="portfolio-wrap" style={{backgroundColor:"#281b47"}}>
                 <img src="assets/img/GetInked/getInkedlogo.png" className="img-fluid" alt="" style={{height:"17em", paddingLeft:"4.5em"}}/>
                 <div className="portfolio-links">
@@ -145,7 +145,7 @@ function Portfolio(){
                   <a href="/getInked" title="More Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
-            </div> */}
+            </div>
   
             <div className="col-lg-4 col-md-6 portfolio-item">
               <div className="portfolio-wrap">

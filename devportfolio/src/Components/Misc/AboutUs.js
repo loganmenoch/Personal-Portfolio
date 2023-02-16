@@ -25,18 +25,16 @@ function AboutUs(){
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>10 September 2001</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>loganenoch.com</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+804 651 8350</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Minneapolis, MN</span></li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelors of Science</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Primary Email:</strong> <span>enochloganm@gmail.com</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Secondary Email:</strong> <span>lenoch@dev-10.com</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Primary Email:</strong> <span>lenoch@dev-10.com</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Secondary Email:</strong> <span>enochloganm@gmail.com</span></li>
                   </ul>
                 </div>
               </div>

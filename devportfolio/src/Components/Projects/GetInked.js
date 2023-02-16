@@ -35,7 +35,7 @@ function GetInked(){
                     <div className="portfolio-details-slider swiper">
                     <div className="swiper-wrapper align-items-center">
                         <div className="swiper-slide">
-                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/gkiwJ3N8R8U" allowFullScreen height="550px" width="850px"></iframe>
+                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/soJk1i65vY4" allowFullScreen height="550px" width="850px"></iframe>
                         </div>
                     </div>
                         <div className="swiper-pagination"></div>
@@ -52,6 +52,7 @@ function GetInked(){
                         <li><strong>Category</strong>: Independent Project</li>
                         <li><strong>Time Span</strong>: 4 Weeks</li>
                         <li><strong>Project date</strong>: 01 Feb 2023</li>
+                        <li><strong><a href={`https://portfolio-377015.uc.r.appspot.com/`}>Visit Live Website</a></strong></li>
                         
                     </ul>
                     </div>
