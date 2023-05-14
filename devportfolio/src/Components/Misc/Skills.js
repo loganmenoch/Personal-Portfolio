@@ -7,10 +7,15 @@ function Skills(){
       <div className="container">
 
         <div className="section-title">
-          <h2>Skills</h2>
-          <p>Many of the projects I have worked on have involved various technologies, 
-            including Java, Spring, BootStrap, MySQL, JavaScript, React, and JPA. Currently, I am pursuing an AWS Certification and a Google UI/UX Certification. 
-            The progress bars below display my experience levels with the technologies and languages I have been exposed to while at Dev10.</p>
+          <h2>Technical Proficiencies</h2>
+          <p>Many of the projects I have worked on have involved various technologies, including:<br></br>
+
+            <b>Spring Framework · Spring MVC · Spring Boot · Spring Security · React.js · HTML · Cascading Style Sheets (CSS) · 
+            Bootstrap · CSS · Amazon Web Services (AWS) · JPA · MySQL · Git · GitHub · Java · Java Script · Node.js</b>
+          <br></br>
+          <br></br>
+            Currently, I am pursuing an AWS Certification and a Google UI/UX Certification. 
+            The progress bars below display my experience levels with the technologies and languages I have been exposed to during my time as a Junior Developer.</p>
         </div>
 
         <div className="row skills-content">
@@ -50,16 +55,16 @@ function Skills(){
             </div>
 
             <div className="progress">
-              <span className="skill">AWS (Working towards Certification)<i className="val">50%</i></span>
+              <span className="skill">React<i className="val">80%</i></span>
               <div className="progress-bar-wrap">
-                <ProgressBar width="50%"/>
+                <ProgressBar width="80%"/>
               </div>
             </div>
 
             <div className="progress">
-              <span className="skill">UI/UX (Working towards Certification)<i className="val">50%</i></span>
+              <span className="skill">Spring<i className="val">80%</i></span>
               <div className="progress-bar-wrap">
-                <ProgressBar width="50%"/>
+                <ProgressBar width="80%"/>
               </div>
             </div>
 

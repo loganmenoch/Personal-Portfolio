@@ -16,7 +16,7 @@ function Resume(){
                 <ul>
                     <li>Minneapolis, MN</li>
                     <li>(804) 651-8350</li>
-                    <li>lenoch@dev-10.com</li>
+                    <li>enochloganm@gmail.com</li>
                 </ul>
                 </div>
 
@@ -24,9 +24,9 @@ function Resume(){
                 <div className="resume-item">
                     <h4>Java Full Stack Developer Certification</h4>
                     <h5>Nov 2022</h5>
-                    <p><em>Dev10 Associate Program</em></p>
+                    <p><em>Dev10 Software Development Program</em></p>
                     <p>Chosen for highly selective, paid Dev10 training program - less than 5% of applicants are hired<br/>
-                    - Training in Java Cloud</p>
+                    - Participated in a rigorous 3-month training program in Java Full Stack Development</p>
                 </div>
                 <div className="resume-item">
                     <h4>Bachelors of Science: <i>Criminal Justice</i></h4>
@@ -38,25 +38,28 @@ function Resume(){
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <h3 className="resume-title">Professional Experience</h3>
                 <div className="resume-item">
-                <h4>Dev10 Associate : Genesis10</h4>
-                <h5>July 2022 - Present</h5>
+                <h4>Dev10 Software Development Associate : Genesis10</h4>
+                <h5>July 2022 - May 2023</h5>
                 <p><em>Minneapolis, MN </em></p>
                 <ul>
-                    <li>Immersive Training program with an emphasis on Full Stack Web Development.</li>
-                    <li>Java Cloud, JavaScript, React, etc.</li>
-                    <li>Granted Full Stack Certification after completion of 12 week program.</li>
-                    <li>Continued Learning and pursuing various certifications including AWS, UI/UX Design, etc.</li>
+                    <li>Designed, development, documented, tested, and debugged software applications throughout the program and after receiving the Java Certification</li>
+                    <li>Experience with JavaScript technologies including React.js and Node.js</li>
+                    <li>Experience with HTML, CSS, Git, Docker, API Development</li>
+                    <li>Experience with database development and management via SQL (MySQL, PostgreSQL)</li>
+                    <li>Explored new technologies related to the Software Development Lifecycle (AWS Deployment, Quality Engineering)</li>
+                    <li>Worked on completion of Google UX Certification while waiting for client placement</li>
                 </ul>
                 </div>
                 <div className="resume-item">
-                <h4>Court Watch Director : BLM RVA</h4>
-                <h5>2021 - 2022</h5>
+                <h4>Administrative/ Data Entry : The Enoch Group</h4>
+                <h5>Seasonal : September 2019 - May 2022</h5>
                 <p><em>Richmond, VA</em></p>
                 <ul>
-                    <li>Attended Criminal Court proceedings to observe and document potential discrepencies in the treatment or sentencing of defendants. </li>
-                    <li>Created training materials to be presented to all other participants and interns; Trained all participants in both group and individual capacities. </li>
-                    <li>Developed an expansive internship opportunity for VCU students while simultaneously creating connections between BLM RVA and major academic institutions within the Greater Richmond Area.</li>
-                    <li>Assisted in data entry coordination and the organization of all research gathered by Court Watch participants. </li>
+                    <li>Organized personal and business expenses for supervisor</li>
+                    <li>Drafted monthly spending reports and communicated any payment discrepancies</li>
+                    <li>Complied Spending reports using QuickBooks</li>
+                    <li>Assisted with Real Estate client outreach (advertising, research, scheduling, etc.)</li>
+                    <li>Delivered gifts to current and potential clients to increase outreach and referral initiatives</li>
                 </ul>
                 </div>
             </div>

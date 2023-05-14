@@ -10,7 +10,7 @@ function Navbar(){
                 <img src="assets/img/profile-img.jpg" alt="" className="img-fluid rounded-circle"/>
                 <h1 className="text-light"><a href="/">Logan Enoch</a></h1>
                 <div className="social-links mt-3 text-center">                
-                    <a href="mailto:lenoch@dev-10.com" className="email"><i className="bi-envelope"></i></a>
+                    <a href="mailto:enochloganm@gmail.com" className="email"><i className="bi-envelope"></i></a>
                     <a href="https://www.linkedin.com/in/enochmlogan/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
                     <a href="https://github.com/loganmenoch" className="github"><i className="bx bxl-github"></i></a>
                 </div>
