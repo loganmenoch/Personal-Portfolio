@@ -21,14 +21,14 @@ function Portfolio(){
       height: "",
       paddingLeft: ""
     },
-    // {
-    //   name: "Get Inked",
-    //   category: ["all", "live"],
-    //   src: "assets/img/websitebackground.jpg",
-    //   link: "/doGooderersOriginal",
-    //   height: "",
-    //   paddingLeft: ""
-    // },
+    {
+      name: "Get Inked",
+      category: ["all", "live"],
+      src: "assets/img/websitebackground.jpg",
+      link: "/doGooderersOriginal",
+      height: "",
+      paddingLeft: ""
+    },
     {
       name: "Development Portfolio",
       category: ["all", "live"],
@@ -55,57 +55,6 @@ function Portfolio(){
 
     return(
       <>
-      {/* <section id="portfolio" className="portfolio section-bg">
-      <div className="container" data-aos="fade-up">
-
-        <div className="section-title">
-          <h2>Portfolio</h2>
-          <p>Below is a collection of projects I have worked on, both individially and within groups, while working for Dev10. Each project has an attached video demo and photo gallery to explore various aspects of the program and the websites code. </p>
-        </div>
-
-          <div class="row" data-aos="fade-up">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="portfolio-flters">
-                <li >
-                  <a href="/#" active={filter === "all"} onClick={() => setFilter("all")}>
-                    All
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/#"
-                    active={filter === "live"}
-                    onClick={() => setFilter("live")}
-                  >
-                    Live Websites
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div>
-      
-          {projects.map(item => item.filtered === true ? 
-
-              <div key={item.name} className=" portfolio-container" data-aos="fade-up" data-aos-delay="100">
-                <div className="col-lg-4 portfolio-item">
-                    <div className="portfolio-wrap">
-                      <img src={item.src} className="img-fluid" alt="" style={{height:[item.height], paddingLeft:[item.paddingLeft]}}/>
-                      <div className="portfolio-links">
-                        <Link to={item.link} title="More Details">{item.name}</Link>
-                        <a href={item.link} title="More Details"><i className="bx bx-link"></i></a>
-                      </div>
-                    </div> 
-                  </div>                 
-              </div>
-              
-              : ""
-          )}
-          </div>
-
-      </div>
-      </section> */}
     
         <section id="portfolio" className="portfolio section-bg">
         <div className="container" data-aos="fade-up">
