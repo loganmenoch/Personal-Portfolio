@@ -10,7 +10,7 @@ function PortfolioProject(){
     const [open, setOpen] = useState(false);
 
     return (
-        <div>
+        <div style={{marginLeft: "10em"}}>
         <section id="breadcrumbs" className="breadcrumbs">
             <div className="container">
 
